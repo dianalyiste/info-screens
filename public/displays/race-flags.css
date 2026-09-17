@@ -1,0 +1,27 @@
+body.fullscreen-flag-body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+
+body.fullscreen-flag-body #flag-display {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+#flag-display.flag-safe { background-color: var(--flag-safe); }
+#flag-display.flag-hazard { background-color: var(--flag-hazard); color: #000; }
+#flag-display.flag-danger { background-color: var(--flag-danger); }
+#flag-display.flag-finish {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'\
+        width='580' height='580'%3E%3Crect width='290' height='290' fill='%23000'/%3E\
+        %3Crect x='290' y='290' width='290' height='290' fill='%23000'/%3E%3C/svg%3E");
+    background-size: 290px 290px;
+}

@@ -1,0 +1,103 @@
+{
+  "state": {
+    "queue": [
+      {
+        "id": 2,
+        "drivers": [
+          {
+            "name": "ss",
+            "car": 1
+          },
+          {
+            "name": "ddd",
+            "car": 2
+          },
+          {
+            "name": "fff",
+            "car": 3
+          },
+          {
+            "name": "sd",
+            "car": 4
+          }
+        ],
+        "mode": null,
+        "timerEndsAt": null,
+        "laps": {}
+      },
+      {
+        "id": 3,
+        "drivers": [
+          {
+            "name": "sss",
+            "car": 1
+          },
+          {
+            "name": "ddd",
+            "car": 2
+          }
+        ],
+        "mode": null,
+        "timerEndsAt": null,
+        "laps": {}
+      }
+    ],
+    "current": {
+      "id": 1,
+      "drivers": [
+        {
+          "name": "juusep",
+          "car": 1
+        },
+        {
+          "name": "sss",
+          "car": 2
+        },
+        {
+          "name": "sd",
+          "car": 3
+        }
+      ],
+      "mode": "hazard",
+      "timerEndsAt": 1789665493871,
+      "laps": {
+        "1": {
+          "count": 0,
+          "fastestMs": null
+        },
+        "2": {
+          "count": 0,
+          "fastestMs": null
+        },
+        "3": {
+          "count": 2,
+          "fastestMs": 4072,
+          "_lastCrossingAt": 1789665303405
+        },
+        "4": {
+          "count": 0,
+          "fastestMs": null
+        },
+        "5": {
+          "count": 0,
+          "fastestMs": null
+        },
+        "6": {
+          "count": 0,
+          "fastestMs": null
+        },
+        "7": {
+          "count": 0,
+          "fastestMs": null
+        },
+        "8": {
+          "count": 0,
+          "fastestMs": null
+        }
+      }
+    },
+    "lastFinished": null,
+    "idleFlagMode": "danger"
+  },
+  "nextSessionId": 4
+}

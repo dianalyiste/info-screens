@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Next Race</title>
+    <link rel="stylesheet" href="../displays/shared.css">
+    <link rel="stylesheet" href="../shared/buttons.css">
+
+</head>
+<body>
+<h1>Next Race</h1>
+
+<div class="session">
+    <h3 id="message"></h3>
+    <table id="drivers-table">
+        <thead>
+        <tr><th>Driver</th><th>Car</th></tr>
+        </thead>
+        <tbody id="rows"></tbody>
+    </table>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="../displays/shared.js"></script>
+<script src="../displays/next-race.js"></script>
+</body>
+</html>

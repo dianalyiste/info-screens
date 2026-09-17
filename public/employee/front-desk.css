@@ -1,0 +1,100 @@
+.session {
+    background: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.session h3 {
+    color: #2c3e50;
+}
+
+.session p {
+    margin-left: 20px;
+}
+
+.session-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.driver-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.driver-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.add-driver-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.add-driver-form input {
+    flex: 1;
+    max-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    box-sizing: border-box;
+} 
+
+#edit-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 500;
+    background: rgba(255,255,255,0.3);
+}
+
+.edit-box {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    gap: 12px;
+    background: #ffffff;
+    padding: 32px 40px;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.edit-box h2 {
+    margin: 0 0 4px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.edit-box label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: -8px;
+}
+
+.edit-box input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.edit-box input:focus {
+    outline: none;
+    border-color: #2c3e50;
+    box-shadow: 0 0 0 3px rgba(44, 62, 80, 0.15);
+}

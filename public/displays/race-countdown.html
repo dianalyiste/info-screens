@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Race Countdown</title>
+    <link rel="stylesheet" href="../displays/shared.css">
+    <link rel="stylesheet" href="../displays/race-countdown.css">
+    <link rel="stylesheet" href="../shared/buttons.css">
+</head>
+<body>
+    <h1>Race Countdown</h1>
+        <div class="session" id="session-card">
+        <div class="countdown-row">
+            <div class="countdown-label" id="countdown-label">Time remaining:</div>
+            <div id="timer">--:--</div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="../displays/shared.js"></script>
+    <script src="../displays/race-countdown.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+#btn-cars {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+#btn-cars button {
+    flex: 1 1 40%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    font-size: 27px;
+}
+

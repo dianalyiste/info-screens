@@ -1,0 +1,44 @@
+.countdown-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.countdown-label {
+    font-size: 50px;
+    font-weight: 600;
+    color: #333;
+}
+
+.session #timer {
+    font-size: 350px;
+    font-weight: bold;
+    color: #2c3e50;
+    line-height: 1;
+}
+
+body.is-fullscreen {
+    max-width: none;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f4f5f7;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body.is-fullscreen h1 {
+    display: none;
+}
+
+body.is-fullscreen .session {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding: 40px;
+}

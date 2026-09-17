@@ -1,0 +1,56 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #f4f5f7;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.session {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease;
+}
+
+.session h3 {
+    color: #2c3e50;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #e2e8f0;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c3e50;;
+    color: #f7f7f7;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+:root {
+  --flag-safe: rgb(4, 171, 4);
+  --flag-hazard: #f1c40f;
+  --flag-danger: #c0392b;
+  --flag-finish: #2c3e50;
+}
